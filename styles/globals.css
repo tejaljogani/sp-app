@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+
+@font-face {
+  font-family: 'Playfair Display';
+  src: local('Playfair Display'), url(../public/asset/fonts/Playfair/PlayfairDisplay-Regular.ttf) format('ttf');
+}
+
+@font-face {
+  font-family: 'Playfair Display';
+  font-weight: 500;
+  src: local('Playfair Display'), url(../public/asset/fonts/Playfair/PlayfairDisplay-Medium.ttf) format('ttf');
+}
+
+@font-face {
+  font-family: 'Playfair Display';
+  font-weight: 700;
+  src: local('Playfair Display'), url(../public/asset/fonts/Playfair/PlayfairDisplay-Bold.ttf) format('ttf');
+}
+
+@font-face {
+  font-family: 'Niveau Grotesk';
+  src: local('Niveau Grotesk'), url(../public/asset/fonts/Niveau_Grotesk/NiveauGroteskRegular.ttf) format('ttf');
+}
+
+@font-face {
+  font-family: 'Niveau Grotesk';
+  font-weight: 400;
+  src: local('Niveau Grotesk'), url(../public/asset/fonts/Niveau_Grotesk/NiveauGroteskMedium.ttf) format('ttf');
+}
+
+@font-face {
+  font-family: 'Niveau Grotesk';
+  font-weight: 700;
+  src: local('Niveau Grotesk'), url(../public/asset/fonts/Niveau_Grotesk/NiveauGroteskBold.ttf) format('ttf');
+}
+
+@tailwind utilities;
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: #F4F2EB;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
